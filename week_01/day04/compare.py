@@ -15,7 +15,17 @@ c = int(input("c:"))
 # else:
 #     print("a == b")
 
-if a > b > c:
-    print("a is max.")
-elif
+
+def max_num(i, j, k):
+    if i > j:
+        max_number = i
+    else:
+        max_number = j
+    if max_number < k:
+        max_number = k
+    return max_number
+
+
+print(max_num(a, b, c))
+
 
